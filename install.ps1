@@ -30,4 +30,4 @@ if (!(Test-Path "downloads")) { New-Item -ItemType Directory -Path "downloads" |
 Write-Host ""
 
 Write-Host -ForegroundColor Cyan "✨ Selesai! Jalankan perintah berikut:`n"
-Write-Host -ForegroundColor Green "   univ --help`n"
+Write-Host -ForegroundColor Green "   maidi --help`n"

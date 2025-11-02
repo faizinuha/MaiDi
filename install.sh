@@ -37,5 +37,5 @@ echo ""
 
 echo -e "${CYAN}✨ Selesai! Jalankan perintah berikut:${NC}
 "
-echo -e "${GREEN}   univ --help${NC}
+echo -e "${GREEN}   maidi --help${NC}
 "

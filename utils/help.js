@@ -14,14 +14,14 @@ export function showHelp() {
   console.log();
 
   console.log(chalk.yellow("⚙️  Cara Penggunaan:"));
-  console.log(`  ${chalk.green("download-video <url>")}`);
+  console.log(`  ${chalk.green("maidi <url>")}`);
   console.log("  Jalankan perintah di atas dengan menyertakan URL video yang ingin diunduh.");
   console.log();
 
   console.log(chalk.yellow("📺 Contoh:"));
-  console.log(`  ${chalk.green("download-video https://youtube.com/watch?v=abc123")}`);
-  console.log(`  ${chalk.green("download-video https://www.tiktok.com/@user/video/123456")}`);
-  console.log(`  ${chalk.green("download-video https://www.instagram.com/reel/xxxxxxx/")}`);
+  console.log(`  ${chalk.green("maidi https://youtube.com/watch?v=abc123")}`);
+  console.log(`  ${chalk.green("maidi https://www.tiktok.com/@user/video/123456")}`);
+  console.log(`  ${chalk.green("maidi https://www.instagram.com/reel/xxxxxxx/")}`);
   console.log();
 
   console.log(chalk.yellow("💾 Lokasi File:"));
@@ -44,6 +44,6 @@ export function showHelp() {
   );
   console.log();
 
-  console.log(chalk.gray("📘 Ketik '--help' kapan saja untuk melihat panduan ini lagi."));
+  console.log(chalk.gray("📘 Ketik 'maidi --help' kapan saja untuk melihat panduan ini lagi."));
   console.log(chalk.gray("💡 Gunakan dengan bijak — hormati hak cipta!"));
 }
